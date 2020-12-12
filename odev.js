@@ -59,7 +59,7 @@ trimmedName = name.trim().split(" ");
 
     }
 
-    if(item.length <= 1) {
+    if(trimmedName.length <= 1) {
         return false;
     }
 
