@@ -66,6 +66,9 @@ trimmedName = name.trim().split(" ");
     return true;
 }
 
+console.log(isValidName("John"));
+console.log(isValidName(" J ohn"));
+
 /*
   Odev 4:
   Asagidaki katilimSaati fonksionu 2 arguman almaktadir.
