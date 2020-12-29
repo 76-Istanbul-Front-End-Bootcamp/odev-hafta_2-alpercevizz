@@ -53,17 +53,16 @@ trimmedName = name.trim().split(" ");
 
     for(let i = 0; i<trimmedName.length; i++) {
         if(trimmedName.length[i] <= 1) {
-          return false;
+          return true;
         }
-            return true;
-
+            return false;
     }
 
     if(trimmedName.length <= 1) {
-        return false;
+        return true;
     }
 
-    return true;
+    return false;
 }
 
 console.log(isValidName("John"));
